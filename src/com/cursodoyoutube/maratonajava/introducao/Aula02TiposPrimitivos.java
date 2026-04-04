@@ -3,8 +3,18 @@ package com.cursodoyoutube.maratonajava.introducao;
 public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
 
-        int age = 10;
-        double orcamentoCompleto = 54458.26;
-        System.out.println(age);
+        int idade = 10;
+        long numeroGrande = 100000;
+        double salarioDouble = 2000;
+        float salarioFloat = 2500;
+        byte idadeByte = -128;
+        short idadeShort = 10;
+        boolean verdadeiro = true;
+        boolean falso = false;
+        char caractere = '\u0041';
+
+        System.out.println("A idade é "+idade+" anos");
+        System.out.println(falso);
+        System.out.println("char "+caractere);
     }
 }
